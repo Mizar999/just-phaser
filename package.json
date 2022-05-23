@@ -1,0 +1,31 @@
+{
+    "name": "just-phaser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch",
+        "serve": "live-server --port=8085"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mizar999/just-phaser.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mizar999/just-phaser/issues"
+    },
+    "homepage": "https://github.com/Mizar999/just-phaser#readme",
+    "devDependencies": {
+        "concurrently": "^7.2.1",
+        "live-server": "^1.1.0",
+        "phaser": "^3.55.2",
+        "ts-loader": "^9.3.0",
+        "typescript": "^4.6.4",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2"
+    }
+}
