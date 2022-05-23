@@ -1,4 +1,4 @@
-# Phaser 3 with TypeScript and Webpack
+# Phaser 3 with TypeScript
 
 Some simple apps to learn more about Phaser 3.
 
