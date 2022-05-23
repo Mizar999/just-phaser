@@ -58,7 +58,7 @@ npm install
     }
     ```
 
-- Download the [Phaser 3 definitions](https://github.com/photonstorm/phaser/tree/master/types) into the `src` subdirectory (`src/phaser.d.ts`)
+- Download the [Phaser 3 definitions](https://github.com/photonstorm/phaser/tree/master/types) into the `types` subdirectory (`types/phaser.d.ts`)
 - Update the **scripts**-section of the `package.json` file:
 
     ```json

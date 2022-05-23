@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "webpack",
-        "watch": "webpack --watch",
-        "serve": "live-server --port=8085"
+        "serve": "live-server --port=8085",
+        "build-t1": "cd tutorial-1 && webpack",
+        "watch-t1": "cd tutorial-1 && webpack --watch"
     },
     "repository": {
         "type": "git",

@@ -15,7 +15,7 @@
   \********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://just-phaser/./src/app.ts?");
+eval("\n\n//# sourceURL=webpack:///./src/app.ts?");
 
 /***/ })
 
