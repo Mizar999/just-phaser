@@ -17,7 +17,7 @@ npm install
 
     ```powershell
     npm init -y
-    npm install --save-dev typescript@4.6.4 ts-loader@9.3.0 webpack@5.72.1 webpack-cli@4.9.2 phaser@3.55.2 live-server@1.1.0 concurrently@7.2.1
+    npm install --save-dev typescript@4.6.4 ts-loader@9.3.0 webpack@5.72.1 webpack-cli@4.9.2 phaser@3.55.2 http-server@14.1.0 concurrently@7.2.1
     ```
 - Create **Webpack** configuration `webpack.config.js`:
 
@@ -59,13 +59,13 @@ npm install
     ```
 
 - Download the [Phaser 3 definitions](https://github.com/photonstorm/phaser/tree/master/types) into the `types` subdirectory (`types/phaser.d.ts`)
-- Update the **scripts**-section of the `package.json` file:
+- Update the **scripts**-section of the `package.json` file, add build and watch scripts for each app separately:
 
     ```json
     "scripts": {
         "build": "webpack",
         "watch": "webpack --watch",
-        "serve": "live-server --port=8085"
+        "serve": "http-server --port=8085"
     }
     ```
 
@@ -75,7 +75,7 @@ npm install
     npm run-script build
     ```
 
-- To run multiple npm scripts cross platform in parallel run the following command:
+- To run multiple npm scripts cross platform in parallel run the following command (use the appropriate watch command for the app you want to run):
 
     ```powershell
     # if globally installed

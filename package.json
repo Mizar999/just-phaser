@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "serve": "live-server --port=8085",
+        "serve": "http-server --port=8085",
         "build-t1": "cd tutorial-1 && webpack",
         "watch-t1": "cd tutorial-1 && webpack --watch"
     },
@@ -21,7 +21,7 @@
     "homepage": "https://github.com/Mizar999/just-phaser#readme",
     "devDependencies": {
         "concurrently": "^7.2.1",
-        "live-server": "^1.1.0",
+        "http-server": "^14.1.0",
         "phaser": "^3.55.2",
         "ts-loader": "^9.3.0",
         "typescript": "^4.6.4",
