@@ -65,7 +65,7 @@ npm install
     "scripts": {
         "build": "webpack",
         "watch": "webpack --watch",
-        "serve": "http-server --port=8085"
+        "serve": "http-server --port=8085 -c-1"
     }
     ```
 

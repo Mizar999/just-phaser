@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "serve": "http-server --port=8085",
+        "serve": "http-server --port=8085 -c-1",
         "build-t1": "cd tutorial-1 && webpack",
         "watch-t1": "cd tutorial-1 && webpack --watch"
     },
