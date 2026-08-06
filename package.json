@@ -1,38 +1,15 @@
 {
-    "name": "just-phaser",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "serve": "http-server --port=8085 -c-1",
-        "build-t1": "cd tutorial-1 && webpack",
-        "watch-t1": "cd tutorial-1 && webpack --watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Mizar999/just-phaser.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Mizar999/just-phaser/issues"
-    },
-    "homepage": "https://github.com/Mizar999/just-phaser#readme",
-    "devDependencies": {
-        "concurrently": "^7.6.0",
-        "http-server": "^14.1.1",
-        "phaser": "^3.55.2",
-        "ts-loader": "^9.4.2",
-        "typescript": "^4.9.4",
-        "webpack": "^5.104.0",
-        "webpack-cli": "^5.0.1"
-    },
-    "overrides": {
-        "lodash": "^4.18.0",
-        "follow-redirects": "^1.16.0",
-        "fast-uri": "^3.1.5",
-        "qs": "^6.15.2",
-        "shell-quote": "^1.9.0"
-    }
+  "name": "just-phaser",
+  "version": "1.0.0",
+  "description": "Just Phaser tutorials",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "phaser": "^3.55.2",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
 }
